@@ -16,7 +16,7 @@ in
 
   enableParallelBuilding = true;
 
-  cmakeFlags = [""];
+  cmakeFlags = ["-DTinyTIFF_BUILD_STATIC_LIBS=ON"];
 
   nativeBuildInputs = [ cmake ];
 
